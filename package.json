@@ -1,0 +1,26 @@
+{
+  "name": "quote-machine",
+  "version": "1.0.0",
+  "description": "a random quote generator",
+  "private": true,
+  "scripts": {
+    "build": "nwb build-react-app",
+    "clean": "nwb clean-app",
+    "start": "nwb serve-react-app",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "styled-components": "^4.0.0-beta.9"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0",
+    "nwb": "0.23.x"
+  },
+  "author": "abdellah hariti",
+  "license": "MIT",
+  "repository": ""
+}
